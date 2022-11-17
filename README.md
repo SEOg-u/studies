@@ -1,2 +1,2 @@
 # studys
-공부한 코드 모음 레포입니다.
+Education begins a gentleman, conversation completes him.
