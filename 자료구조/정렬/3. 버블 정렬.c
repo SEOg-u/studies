@@ -4,7 +4,8 @@
 
 int arr[MAX_SIZE];
 
-void Bubble_sort() {
+void Bubble_sort() 
+{
 	int temp;
 
 	for (int i = MAX_SIZE - 1; i >= 1; i--) { // 총 단계는 배열 사이즈-1 수행됨
