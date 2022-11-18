@@ -6,11 +6,11 @@ int arr[MAX_SIZE];
 
 void insertion_sort() {
 	int key, i, j;
-	for (i = 1; i < MAX_SIZE; i++) { //               i가 1부터 시작하는 것에 유의
+	for (i = 1; i < MAX_SIZE; i++) { // i가 1부터 시작하는 것에 유의
 		key = arr[i];
 		for (j = i - 1; j >= 0 && arr[j] > key; j--) // key 값의 위치 찾기
 			arr[j + 1] = arr[j];
-		arr[j + 1] = key; //                            key 값 삽입
+		arr[j + 1] = key; // key 값 삽입
 	}
 }
 
