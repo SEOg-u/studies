@@ -4,7 +4,8 @@
 
 int arr[MAX_SIZE];
 
-void selection_sort(int arr[], int n) {
+void selection_sort(int arr[], int n) 
+{
 	int least, tmp;
 	for (int i = 0; i < n - 1; i++) {// n-1단계 수행되도록 반복 횟수 설정
 		least = i;
@@ -20,9 +21,9 @@ void selection_sort(int arr[], int n) {
 }
 
 int main() {
-	srand(time(NULL)); // 씨드 변경 함수
 	int n = MAX_SIZE;
-
+	
+	srand(time(NULL)); // 씨드 변경 함수
 	for (int i = 0; i < n; i++) {
 		arr[i] = rand() % 100; // 랜덤 값 반환 함수
 	}
