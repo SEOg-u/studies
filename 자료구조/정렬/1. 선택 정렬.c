@@ -6,7 +6,7 @@ int arr[MAX_SIZE];
 
 void selection_sort(int arr[], int n) {
 	int least, tmp;
-	for (int i = 0; i < n - 1; i++) {//      n-1단계 수행되도록 반복 횟수 설정
+	for (int i = 0; i < n - 1; i++) {//    n-1단계 수행되도록 반복 횟수 설정
 		least = i;
 		for (int j = i + 1; j < n; j++) { // 각 단계에 맞는 최솟값의 index 찾기
 			if (arr[least] > arr[j]) {
