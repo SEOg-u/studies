@@ -8,7 +8,7 @@ void Bubble_sort() {
 	int temp;
 
 	for (int i = MAX_SIZE - 1; i >= 1; i--) { // 총 단계는 배열 사이즈-1 수행됨
-		for (int j = 0; j <= i - 1; j++) { //      뒤에서부터 거품처럼 정렬되는 구조
+		for (int j = 0; j <= i - 1; j++) { // 뒤에서부터 거품처럼 정렬되는 구조
 			if (arr[j] > arr[j + 1]) {
 				temp = arr[j];
 				arr[j] = arr[j + 1];
