@@ -1,3 +1,4 @@
+// 삽입 정렬
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX_SIZE 10
