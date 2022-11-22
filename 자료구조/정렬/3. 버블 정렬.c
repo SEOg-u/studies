@@ -20,10 +20,11 @@ void Bubble_sort()
 }
 
 int main() {
-	srand(time(NULL));
-	int n = MAX_SIZE;
+  int n = MAX_SIZE;
+  
+	srand(time(NULL)); // 씨드 변경 함수
 	for (int i = 0; i < n; i++) {
-		arr[i] = rand() % 100;
+		arr[i] = rand() % 100; // 랜덤 값 반환 함수
 	}
 
 	printf("정렬 전 : ");
